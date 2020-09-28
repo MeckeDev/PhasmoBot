@@ -1,0 +1,93 @@
+{
+
+  "de"  : {
+
+            "commands"  :       {
+
+                                        "points"  : {
+
+                                                        "add_points"  :   "NAME1 bekommt AMOUNT POINTS von NAME2",
+                                                        "set_points"  :   "NAME2 setzt die POINTS von NAME1 auf AMOUNT",
+                                                        "rm_points"   :   "NAME2 entfernt AMOUNT POINTS von NAME1",
+                                                        "reset_points":   "NAME2 setzt alle POINTS zurück",
+                                                        "my_points"   :   "NAME2 besitzt AMOUNT POINTS",
+                                                        "scoreboard_failed"  : "Bitte nur zahlen zwischen 1 - 10 eingeben"
+
+                                                    },
+
+                                        "game"    : {
+
+                                                        "set_game"    :   "NAME2 hat das Spiel auf GAME gestellt.",
+                                                        "get_game"    :   "Aktuelles Spiel: GAME"
+
+                                                    },
+
+                                        "default" : {
+
+                                                        "discord"     :   "Unseren Discord findest du unter: DISCORD"
+
+                                                    },
+
+                                        "scrabble" :{
+
+                                                        "works" : "'WORD' bringt dir SCRABBLE_AMOUNT Punkte.",
+                                                        "not valid": "'WORD' ist kein englisches Wort."
+
+                                                    }
+
+                                },
+            
+            "bot_info":         {
+
+                                "start" : "Bot wurde gestarted: "
+
+                                }
+
+          },
+
+  "en"  : {
+
+              "commands"  :     {
+
+                                    "points"  : {
+
+                                                    "add_points"  :   "NAME2 gave AMOUNT POINTS to NAME1",
+                                                    "set_points"  :   "NAME2 sets the POINTS of NAME1 to AMOUNT",
+                                                    "rm_points"   :   "NAME2 removed AMOUNT POINTS from NAME1",
+                                                    "reset_points":   "NAME2 set all POINTS to 0",
+                                                    "my_points"   :   "NAME2 owns AMOUNT POINTS",
+                                                    "scoreboard_failed"  : "Please enter a Value between 1 - 10"
+
+                                                },
+
+                                    "game"    : {
+
+                                                    "set_game"    :   "NAME2 set the game to GAME.",
+                                                    "get_game"    :   "Game played: GAME"
+
+                                                },
+
+                                    "default" : {
+
+                                                    "discord"     :   "Join our Discord on: DISCORD"
+
+                                                },
+
+                                    "scrabble" :{
+
+                                                    "works" : "For 'WORD' you will get SCRABBLE_AMOUNT points.",
+                                                    "not valid": "'WORD' is not a valid word."
+
+                                                }
+
+                                },
+            
+                "bot_info":     {
+
+                                    "start" : "Bot started: "
+
+                                }
+
+          }
+
+}
