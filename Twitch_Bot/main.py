@@ -373,12 +373,52 @@ async def remove(ctx, setting, value):
             ch.remove_setting(setting, value)
 
 @bot.command(name='evidence', aliases=["evi"])
-async def ghost(ctx, ghostname=None, detail=None):
-    if ghostname == "Beta":
-        pass
-    else:
-        pass
+async def ghost(ctx, detail=None):
 
+    channel = ctx.channel.name.lower()
+    ch = NewChannel(channel)
+
+    if not detail:
+        await ctx.send(f"Evidences: {ch.evidence}. Possible Ghosts: {ch.ghosts}")
+
+    if ch.is_mod(ctx.author.name) or ch.is_admin(ctx.author.name) and detail:
+
+        if detail.lower() == "reset":
+            ch.save_settings("evidence", "make_empty")
+            await ctx.send(f"Evidences are reset.")
+        else:
+
+            evidences = {
+
+                "EMF Level 5" : ["emf", "emf level 5", "level 5"],
+                "Spirit Box" : ["spirit box", "spirit", "box", "talk", "spiritbox"],
+                "Fingerprints" : ["fingerprints", "finger", "footprints", "prints"],
+                "Ghost Writing" : ["ghost writing", "ghostwriting","writing", "book", "write", "wrote", "written", "writer", "ghostwriter", "ghost writer"],
+                "Freezing Temperatures" : ["freezing", "freezing temperatures", "frozen", "cold", "ice", "temps", "temperature"],
+                "Ghost Orb" : ["orb", "ghost orb", "ghostorb"]
+
+            }
+
+            found = False
+
+            for evi in evidences:
+                if detail.lower() in evidences[evi]:
+                    real = evi
+                    found = True
+
+            channel = ctx.channel.name.lower()
+            ch = NewChannel(channel)
+                
+            if found and real not in ch.evidence:
+                ch.save_settings("evidence", evi) 
+                await ctx.send(f"{real} added to evidences. Possible Ghosts: {ch.ghosts}")
+            elif found and real in ch.evidence:
+                await ctx.send(f"{real} is already an evidence. Possible Ghosts: {ch.ghosts}")
+            else:
+                await ctx.send(f"{detail} is not known as an evidence.")
+
+
+                
 @bot.command(name='ghost', aliases=["g"])
 async def ghost(ctx, ghostname=None, detail=None):
 

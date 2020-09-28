@@ -15,73 +15,16 @@
                         "thiccur",
                         "commanderroot",
                         "bloodlustr",
-                        "thecommandergroot"
+                        "thecommandergroot",
+                        "testitest"
                 ],
                 "language": "de",
                 "discord": "",
-                "prefix": "$",
-                "points": "Punkte",
+                "prefix": "!",
+                "points": "Crowns",
                 "point_amount": 10,
                 "point_period": 10,
-                "point_get_period": 2,
-                "evidence": [],
-                "commands_link": ""
-        },
-        "duderuslive": {
-                "admins": [
-                        "duderuslive",
-                        "mecke_dev"
-                ],
-                "moderators": [],
-                "blacklist": [
-                        "streamlabs",
-                        "anotherttvviewer",
-                        "aten",
-                        "lurxx",
-                        "1fps",
-                        "communityshowcase",
-                        "nightbot",
-                        "thiccur",
-                        "commanderroot",
-                        "bloodlustr",
-                        "thecommandergroot"
-                ],
-                "language": "en",
-                "discord": "",
-                "prefix": "$",
-                "points": "Punkte",
-                "point_amount": 10,
-                "point_period": 10,
-                "point_get_period": 10,
-                "evidence": [],
-                "commands_link": ""
-        },
-        "beardedguysgaming": {
-                "admins": [
-                        "beardedguysgaming",
-                        "mecke_dev"
-                ],
-                "moderators": [],
-                "blacklist": [
-                        "streamlabs",
-                        "anotherttvviewer",
-                        "aten",
-                        "lurxx",
-                        "1fps",
-                        "communityshowcase",
-                        "nightbot",
-                        "thiccur",
-                        "commanderroot",
-                        "bloodlustr",
-                        "thecommandergroot"
-                ],
-                "language": "de",
-                "discord": "",
-                "prefix": "$",
-                "points": "Punkte",
-                "point_amount": 10,
-                "point_period": 10,
-                "point_get_period": 1,
+                "point_get_period": 0,
                 "evidence": [],
                 "commands_link": ""
         },
@@ -104,42 +47,13 @@
                         "bloodlustr",
                         "thecommandergroot"
                 ],
-                "language": "de",
-                "discord": "",
-                "prefix": "$",
-                "points": "Punkte",
-                "point_amount": 10,
-                "point_period": 10,
-                "point_get_period": 0,
-                "evidence": [],
-                "commands_link": ""
-        },
-        "mrkthulu": {
-                "admins": [
-                        "mrkthulu",
-                        "mecke_dev"
-                ],
-                "moderators": [],
-                "blacklist": [
-                        "streamlabs",
-                        "anotherttvviewer",
-                        "aten",
-                        "lurxx",
-                        "1fps",
-                        "communityshowcase",
-                        "nightbot",
-                        "thiccur",
-                        "commanderroot",
-                        "bloodlustr",
-                        "thecommandergroot"
-                ],
                 "language": "en",
                 "discord": "",
-                "prefix": "$",
+                "prefix": "!",
                 "points": "Punkte",
                 "point_amount": 10,
                 "point_period": 10,
-                "point_get_period": 3,
+                "point_get_period": 8,
                 "evidence": [],
                 "commands_link": ""
         }

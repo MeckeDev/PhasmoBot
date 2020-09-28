@@ -17,7 +17,7 @@ class Ghosts(commands.Cog):
 
                 try:
                     
-                    with open("infos/ghosts.json", mode="r", encoding="utf-8") as f:
+                    with open("Discord_Bot/infos/ghosts.json", mode="r", encoding="utf-8") as f:
                         ghosts = json.load(f)
 
                     ghost = ghosts["Ghosts"][ghostname.title()]

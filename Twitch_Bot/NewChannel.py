@@ -43,6 +43,25 @@ class NewChannel:
         self.commands_link = self.settings["commands_link"]
         self.prefix = self.settings["prefix"]
         self.channel_points = self.user_points[self.name]
+        self.evidence = self.settings["evidence"]
+
+        self.ghosts = self.check_evidences()
+
+
+    def check_evidences(self):
+
+        possible_ghosts = []
+
+        with open("Discord_Bot/infos/ghosts.json", "r") as f:
+            all_ghosts = json.load(f)
+
+        for ghost in all_ghosts["Ghosts"]:
+            evi = all_ghosts["Ghosts"][ghost]["Evidence"]
+            if all(elem in evi  for elem in self.evidence):
+                possible_ghosts.append(ghost)
+
+        return possible_ghosts
+
 
     def get_point_list(self):
 
@@ -137,13 +156,24 @@ class NewChannel:
 
     def save_settings(self, setting, value):
 
-        with open("Twitch_Bot/settings/channels.json", "r") as set_f:
-            settings = json.load(set_f)
+        if value == "make_empty":
 
-        settings[self.name][setting].append(value)
+            with open("Twitch_Bot/settings/channels.json", "r") as set_f:
+                settings = json.load(set_f)
 
-        with open("Twitch_Bot/settings/channels.json", "w+") as chann_f:
-            json.dump(settings, chann_f, indent=8)
+            settings[self.name][setting] = []
+
+            with open("Twitch_Bot/settings/channels.json", "w+") as chann_f:
+                json.dump(settings, chann_f, indent=8)
+
+        else:
+            with open("Twitch_Bot/settings/channels.json", "r") as set_f:
+                settings = json.load(set_f)
+
+            settings[self.name][setting].append(value)
+
+            with open("Twitch_Bot/settings/channels.json", "w+") as chann_f:
+                json.dump(settings, chann_f, indent=8)
 
     def remove_setting(self, setting, value):
 

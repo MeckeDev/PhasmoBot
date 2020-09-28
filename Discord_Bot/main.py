@@ -10,7 +10,7 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix='!')
 
-for file in os.listdir("./cogs/"):
+for file in os.listdir("Discord_Bot/cogs/"):
     if file.endswith(".py") and not file.startswith("_"):
         bot.load_extension(f'cogs.{file[:-3]}')
 
