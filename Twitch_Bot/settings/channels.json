@@ -24,7 +24,7 @@
                 "points": "Crowns",
                 "point_amount": 10,
                 "point_period": 10,
-                "point_get_period": 0,
+                "point_get_period": 10,
                 "evidence": [],
                 "commands_link": ""
         },
@@ -54,6 +54,211 @@
                 "point_amount": 10,
                 "point_period": 10,
                 "point_get_period": 8,
+                "evidence": [],
+                "commands_link": ""
+        },
+        "xlewdogx": {
+                "admins": [
+                        "xlewdogx",
+                        "mecke_dev"
+                ],
+                "moderators": [],
+                "blacklist": [
+                        "streamlabs",
+                        "anotherttvviewer",
+                        "aten",
+                        "lurxx",
+                        "1fps",
+                        "communityshowcase",
+                        "nightbot",
+                        "thiccur",
+                        "commanderroot",
+                        "bloodlustr",
+                        "thecommandergroot"
+                ],
+                "language": "en",
+                "discord": "",
+                "prefix": "$",
+                "points": "Points",
+                "point_amount": 10,
+                "point_period": 10,
+                "point_get_period": 6,
+                "evidence": [],
+                "commands_link": ""
+        },
+        "itsjustkatiee": {
+                "admins": [
+                        "itsjustkatiee",
+                        "mecke_dev"
+                ],
+                "moderators": [],
+                "blacklist": [
+                        "streamlabs",
+                        "anotherttvviewer",
+                        "aten",
+                        "lurxx",
+                        "1fps",
+                        "communityshowcase",
+                        "nightbot",
+                        "thiccur",
+                        "commanderroot",
+                        "bloodlustr",
+                        "thecommandergroot"
+                ],
+                "language": "en",
+                "discord": "",
+                "prefix": "$",
+                "points": "Punkte",
+                "point_amount": 10,
+                "point_period": 10,
+                "point_get_period": 0,
+                "evidence": [],
+                "commands_link": ""
+        },
+        "x0meow": {
+                "admins": [
+                        "x0meow",
+                        "mecke_dev"
+                ],
+                "moderators": [],
+                "blacklist": [
+                        "streamlabs",
+                        "anotherttvviewer",
+                        "aten",
+                        "lurxx",
+                        "1fps",
+                        "communityshowcase",
+                        "nightbot",
+                        "thiccur",
+                        "commanderroot",
+                        "bloodlustr",
+                        "thecommandergroot"
+                ],
+                "language": "en",
+                "discord": "",
+                "prefix": "$",
+                "points": "Punkte",
+                "point_amount": 10,
+                "point_period": 10,
+                "point_get_period": 2,
+                "evidence": [
+                        "Spirit Box"
+                ],
+                "commands_link": ""
+        },
+        "veenacos": {
+                "admins": [
+                        "veenacos",
+                        "mecke_dev"
+                ],
+                "moderators": [],
+                "blacklist": [
+                        "streamlabs",
+                        "anotherttvviewer",
+                        "aten",
+                        "lurxx",
+                        "1fps",
+                        "communityshowcase",
+                        "nightbot",
+                        "thiccur",
+                        "commanderroot",
+                        "bloodlustr",
+                        "thecommandergroot"
+                ],
+                "language": "en",
+                "discord": "",
+                "prefix": "$",
+                "points": "Punkte",
+                "point_amount": 10,
+                "point_period": 10,
+                "point_get_period": 3,
+                "evidence": [],
+                "commands_link": ""
+        },
+        "omgezniki": {
+                "admins": [
+                        "omgezniki",
+                        "mecke_dev"
+                ],
+                "moderators": [],
+                "blacklist": [
+                        "streamlabs",
+                        "anotherttvviewer",
+                        "aten",
+                        "lurxx",
+                        "1fps",
+                        "communityshowcase",
+                        "nightbot",
+                        "thiccur",
+                        "commanderroot",
+                        "bloodlustr",
+                        "thecommandergroot"
+                ],
+                "language": "en",
+                "discord": "",
+                "prefix": "$",
+                "points": "Punkte",
+                "point_amount": 10,
+                "point_period": 10,
+                "point_get_period": 7,
+                "evidence": [],
+                "commands_link": ""
+        },
+        "dusktheviking": {
+                "admins": [
+                        "dusktheviking",
+                        "mecke_dev"
+                ],
+                "moderators": [],
+                "blacklist": [
+                        "streamlabs",
+                        "anotherttvviewer",
+                        "aten",
+                        "lurxx",
+                        "1fps",
+                        "communityshowcase",
+                        "nightbot",
+                        "thiccur",
+                        "commanderroot",
+                        "bloodlustr",
+                        "thecommandergroot"
+                ],
+                "language": "en",
+                "discord": "",
+                "prefix": "$",
+                "points": "Punkte",
+                "point_amount": 10,
+                "point_period": 10,
+                "point_get_period": 1,
+                "evidence": [],
+                "commands_link": ""
+        },
+        "shayshayface": {
+                "admins": [
+                        "shayshayface",
+                        "mecke_dev"
+                ],
+                "moderators": [],
+                "blacklist": [
+                        "streamlabs",
+                        "anotherttvviewer",
+                        "aten",
+                        "lurxx",
+                        "1fps",
+                        "communityshowcase",
+                        "nightbot",
+                        "thiccur",
+                        "commanderroot",
+                        "bloodlustr",
+                        "thecommandergroot"
+                ],
+                "language": "en",
+                "discord": "",
+                "prefix": "$",
+                "points": "Punkte",
+                "point_amount": 10,
+                "point_period": 10,
+                "point_get_period": 3,
                 "evidence": [],
                 "commands_link": ""
         }

@@ -120,5 +120,96 @@
                 "Ghost Writing"
             ]
         }
+    },
+    "Items" : {
+        "EMF Reader" : {
+            "Description" : "The Electro Magnetic Field Reader is a handheld device used to detect fluctuations in electromagnetic fields left behind by paranormal activity. It will beep with increasing volume depending on the amount of activity nearby.",
+            "Price" : 45
+        },
+        "Flashlight" : {
+            "Description" : "The Flashlight is a basic hunting tool designed to help you when the lights go out.",
+            "Price" : 30
+        },
+        "Photo Camera" : {
+            "Description" : "This camera has been fine tuned to take photos of the paranormal. This will help you in situations where more evidence is needed.",
+            "Price" : 40
+        },
+        "Lighter" : {
+            "Description" : "A simple Lighter used for lighting candles and Smudge Sticks",
+            "Price" : 10
+        },
+        "Candle" : {
+            "Description" : "A Candle is a great way of keeping a room lit when the lights go out as it isn't dependent on electricity.",
+            "Price" : 15
+        },
+        "UV Light" : {
+            "Description" : "This UV light can spot even the most subtile paranormal prints and is one of the most vital pieces of equipment for tracking Ghosts.",
+            "Price" : 35
+        },
+        "Crucifix" : {
+            "Description" : "A Crucifix is used to stop Ghosts from entering their physical form to attack you. It's advised to place them near the Ghost.",
+            "Price" : 30
+        },
+        "Video Camera" : {
+            "Description" : "This DSLR Camera has been fine tuned to take videos of the paranormal. The camera has a live feed to your base of operations.",
+            "Price" : 50
+        },
+        "Spirit Box" : {
+            "Description" : "This electronic voice phenomenon recorder or Spirit Box can capture paranormal radio frequencies that can allow communication with spirits.",
+            "Price" : 50
+        },
+        "Salt" : {
+            "Description" : "Salt is toxic to most kinds of Ghosts and will reveal their footsteps under a UV light.",
+            "Price" : 15
+        },
+        "Smudge Sticks" : {
+            "Description" : "Burning Smudge Sticks near a Ghost will prevent it from attacking for a period of time.",
+            "Price" : 15
+        },
+        "Tripod" : {
+            "Description" : "A Tripod can be used to mount Video Cameras on.",
+            "Price" : 25
+        },
+        "Strong Flashlight" : {
+            "Description" : "An upgraded version of the flashlight. Designed to help you in large areas when the lights go out.",
+            "Price" : 50
+        },
+        "Motion Sensor" : {
+            "Description" : "A motion sensor is a sensor that can detect the most subtle changes in the atmosphere around it. This is linked live to the map in your Truck.",
+            "Price" : 100
+        },
+        "Sound Sensor" : {
+            "Description" : "A sound sensor is a sensor that can listen to the most quiet sounds and vibrations in the air. This gets displayed as data at your base of operations.",
+            "Price" : 80
+        },
+        "Sanity Pills" : {
+            "Description" : "Sanity Pills will increase your Sanity level therefore they are vital for larger locations as these will allow you to be safer on a contract for longer periods.",
+            "Price" : 45
+        },
+        "Thermometer" : {
+            "Description" : "A Thermometer will help you discover the location of a Ghost quicker by getting the temperature of the room.",
+            "Price" : 30
+        },
+        "Ghost Writing Book" : {
+            "Description" : "Also known as automatic writing, if you place this book near a Ghost it will allow certain Ghosts to write on it.",
+            "Price" : 40
+        },
+        "Infrared Light Sensor" : {
+            "Description" : "An infrared motion sensor that detects both human and paranormal movement, when set off it will illuminate the surrounding area with a bright light.",
+            "Price" : 65
+        },
+        "Parabolic Microphone" : {
+            "Description" : "A Parabolic Microphone can detect sound through walls and at great distance. This is a portable version of the sound sensor",
+            "Price" : 50
+        },
+        "Glowstick" : {
+            "Description" : "A Glowstick can be used to help navigate in larger locations or used as an area UV Light.",
+            "Price" : 20
+        },
+        "Head Mounted Camera" : {
+            "Description" : "A Head Mounted Camera can be used to help teams track each other and to see Ghost Orbs.",
+            "Price" : 60
+        }
+
     }
 }

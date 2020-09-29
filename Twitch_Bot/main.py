@@ -372,6 +372,18 @@ async def remove(ctx, setting, value):
             value = value.lower()
             ch.remove_setting(setting, value)
 
+
+
+@bot.command(name='game', aliases=["phasmophobia"])
+async def whats_game(ctx):
+    await ctx.send(f"Phasmophobia is a 4 player online co-op psychological horror where you and your team members of paranormal investigators will enter haunted locations filled with paranormal activity and gather as much evidence of the paranormal as you can. You will use your ghost hunting equipment to search for and record evidence of whatever ghost is haunting the location.")
+
+
+@bot.command(name='intro', aliases=["phasmobot"])
+async def introduce(ctx):
+    await ctx.send(f"Hey, I'm a Bot especially created for the Game Phasmophobia, my Dev is not the Dev of the Game.")
+
+
 @bot.command(name='evidence', aliases=["evi"])
 async def ghost(ctx, detail=None):
 
@@ -394,25 +406,30 @@ async def ghost(ctx, detail=None):
                 "Spirit Box" : ["spirit box", "spirit", "box", "talk", "spiritbox"],
                 "Fingerprints" : ["fingerprints", "finger", "footprints", "prints"],
                 "Ghost Writing" : ["ghost writing", "ghostwriting","writing", "book", "write", "wrote", "written", "writer", "ghostwriter", "ghost writer"],
-                "Freezing Temperatures" : ["freezing", "freezing temperatures", "frozen", "cold", "ice", "temps", "temperature"],
+                "Freezing Temperatures" : ["freezing", "freezing temperatures", "frozen", "cold", "ice", "temps", "temperature", "freeze"],
                 "Ghost Orb" : ["orb", "ghost orb", "ghostorb"]
 
             }
 
             found = False
+            real = None
 
             for evi in evidences:
                 if detail.lower() in evidences[evi]:
-                    real = evi
-                    found = True
+                    if evi not in ch.evidence:
+                        ch.save_settings("evidence", evi) 
+                        real = evi
+                        found = True
+                    else:
+                        found = True
+
 
             channel = ctx.channel.name.lower()
             ch = NewChannel(channel)
                 
-            if found and real not in ch.evidence:
-                ch.save_settings("evidence", evi) 
+            if found and real:
                 await ctx.send(f"{real} added to evidences. Possible Ghosts: {ch.ghosts}")
-            elif found and real in ch.evidence:
+            elif found and not real:
                 await ctx.send(f"{real} is already an evidence. Possible Ghosts: {ch.ghosts}")
             else:
                 await ctx.send(f"{detail} is not known as an evidence.")
