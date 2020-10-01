@@ -1,215 +1,432 @@
 {
-    "Ghosts" : {
-        "Spirit" : {
-            "Description" : "A spirit is the most common Ghost you will come across however it is still very powerful and dangerous. They are usually discovered at one of their hunting grounds after an unexplained death.",
-            "Strength" : "Nothing",
-            "Weaknesses" : "Using Smudge Sticks on a Spirit will stop it attacking for a long period of time.",
-            "Evidence" : [
-                "Spirit Box", 
-                "Fingerprints", 
-                "Ghost Writing"
-            ]
+    "de": {
+        "Ghosts" : {
+            "Spirit" : {
+                "Description" : "Der Spirit ist eine der gewöhnlichsten Geisterarten, jedoch ist er sehr stark und gefährlich. Sie werden für gewöhnlich in einem Gebiet gefunden in dem der Tod einer Person unaufgeklärt blieb.",
+                "Strength" : "Keine",
+                "Weaknesses" : "Using Smudge Sticks on a Spirit will stop it attacking for a long period of time.",
+                "Evidence" : [
+                    "Geisterbox", 
+                    "Fingerabdrücke", 
+                    "Geisterbuch"
+                ]
+            },
+            "Gespenst" : {
+                "Description" : "Ein gespenst ist einer der gerfährlichsten Geisterdie Sie finden werden. Er ist auch bekannt als der Geist, der fliegen und durch Wände gehen kann.",
+                "Strength" : "Ein Gespenst berührt nie den Boden wodurch er nicht durch Fußabdrücke gefunden werden kann.",
+                "Weaknesses" : "Giftige Reaktion zu Salz.",
+                "Evidence" : [
+                    "Fingerabdrücke", 
+                    "Gefriertemperaturen", 
+                    "Geisterbox"
+                ]
+            },
+            "Phantom" : {
+                "Description" : "Ein Phantom ist ein Geist, der von den Lebenden Besitz ergreifen kann. Meistens beschworen durch das Ouija-Board. Verursacht Angst in den Menschen um ihn herum.",
+                "Strength" : "Senkt ihren Verstand stark, wenn Sie das Phantom anschauen.",
+                "Weaknesses" : "Fotografieren Sie das Phantom, verschwindet es temporär.",
+                "Evidence" : [
+                    "EMF Level 5", 
+                    "Geisterorb", 
+                    "Gefriertemperaturen"
+                ]
+            },
+            "Poltergeist" : {
+                "Description" : "Einer der berühmtesten Geister. Ein Poltergeist ist bekannt als ein Wesen das laut ist und Objekte um sich herum manipuliert um seinen Opfern Angst einzujagen.",
+                "Strength" : "Ein Poltergeist kann viele Objekte auf einmal werfen.",
+                "Weaknesses" : "Ein Poltergeist ist in einem leeren Raum fast ineffektiv.",
+                "Evidence" : [
+                    "Geisterbox",
+                    "Fingerabdrücke",
+                    "Geisterorb"
+                ]
+            },
+            "Banshee" : {
+                "Description" : "Die Banshee ist ein Jäger und wird jeden attackieren. Es ist bekannt seine Opfer zu stalken bis es jemanden tötet.",
+                "Strength" : "Eine Banshee wird jeweils nur eine Person jagen.",
+                "Weaknesses" : "Banshees fürchten das Kruzifix und sind weniger aggressiv in seinem Umkreis.",
+                "Evidence" : [
+                    "EMF Level 5",
+                    "Fingerabdrücke",
+                    "Gefriertemperaturen"
+                ]
+            },
+            "Dschinn" : {
+                "Description" : "Ein Dschinn ist ein territorialer Geist der bei Bedrängnis angreift. Er ist ebenfalls bekannt dafür, sich mit hoher Geschwindigkeit zu bewegen.",
+                "Strength" : "Ein Dschinn bewegt sich schneller, wenn sein Opfer weit weg ist.",
+                "Weaknesses" : "Dem Ort seinen Strom zu entziehen, hindert den Dschinn am nutzen seiner Fähigkeiten.",
+                "Evidence" : [
+                    "Geisterbox",
+                    "Geisterorb",
+                    "EMF Level 5"
+                ]
+            },
+            "Mare" : {
+                "Description" : "Eine Mare ist de Quelle von allen Albträumen, Sie wird bei Nacht am stärksten. Es wird erzählt, dass eine Mare den Verstand von Menschen kontrollieren kann.",
+                "Strength" : "Eine Mare hat eine erhöhte Chance anzugreifen, wenn Sie sich im Dunkeln aufhält.",
+                "Weaknesses" : "Schaltet man die Lichter um einer Mare ein ist die Chance angegriffen zu werden eher gering.",
+                "Evidence" : [
+                    "Geisterbox",
+                    "Geisterorb",
+                    "Gefriertemperaturen"
+                ]
+            },
+            "Revenant" : {
+                "Description" : "Ein Revenant ist langsam, aber attackiert heftig und wahllos. Gerüchten zufolge ist ein Revenant schneller, wenn er jemanden jagt.",
+                "Strength" : "Wird schneller wenn er sein Opfer jagt.",
+                "Weaknesses" : "Versteckt man sich vor dem Revenant, bewegt er sich sehr langsam.",
+                "Evidence" : [
+                    "EMF Level 5",
+                    "Fingerabdrücke",
+                    "Geisterbuch"
+                ]
+            },
+            "Shade" : {
+                "Description" : "Der Shade ist bekannt als ein schüchterner Geist. Wenn mehrere Menschen zusammen sind, werden alle paranormalen Aktivitäten gestoppt.",
+                "Strength" : "Schüchtern zu sein bedeutet es wird schwerer den Geist zu entdecken.",
+                "Weaknesses" : "Der Geist wird nicht jagen wenn mehrere Menschen zusammen sind.",
+                "Evidence" : [
+                    "EMF Level 5", 
+                    "Geisterorb", 
+                    "Geisterbuch"
+                ]
+            },
+            "Dämon" : {
+                "Description" : "Ein Dämon ist mit einer der schlimmsten Geister die man finden kann. Er ist bekannt dafür, ohne Sinn und Verstand anzugreifen.",
+                "Strength" : "Dämonen greifen viel öfter an, als andere Geister.",
+                "Weaknesses" : "Erfolgreiche Befragungen des Ouija-Boards über den Dämon verringern nicht den Geisteszustand.",
+                "Evidence" : [
+                    "Geisterbox",
+                    "Geisterbuch",
+                    "Gefriertemperaturen"
+                ]
+            },
+            "Yurei" : {
+                "Description" : "Ein Yurei ist ein Geist der in die physische Welt zurückkehrte, aus Gründen des Hasses oder unerfüllter Rache.",
+                "Strength" : "Yurei's heben einen stärkeren Einfluss auf den Geisteszustand von Menschen.",
+                "Weaknesses" : "Smudging the Yurei’s room will cause it to not wander around the location for a long time.",
+                "Evidence" : [
+                    "Geisterorb", 
+                    "Geisterbuch", 
+                    "Gefriertemperaturen"
+                ]
+            },
+            "Oni" : {
+                "Description" : "Oni’s sind Verwandte des Dämons und besitzen unglaubliche Stärke. Gerüchten zufolge sind sie aktiver in der Nähe ihres Opfers.",
+                "Strength" : "Oni’s bewegen Objekte mit großer Geschwindigkeit und sind aktiver wenn Leute in der Nähe sind.",
+                "Weaknesses" : "Durch ihre hohe Aktivitätsrate sind Oni's leichter zu erkennen.",
+                "Evidence" : [
+                    "EMF Level 5",
+                    "Geisterbox",
+                    "Geisterbuch"
+                ]
+            }
         },
-        "Wraith" : {
-            "Description" : "A Wraith is one of the most dangerous Ghosts you will find. It is also the only known Ghost that has the ability of flight and has sometimes been known to travel through walls.",
-            "Strength" : "Wraiths almost never touch the ground meaning it can’t be tracked by footsteps.",
-            "Weaknesses" : "Wraiths have a toxic reaction to Salt.",
-            "Evidence" : [
-                "Fingerprints", 
-                "Freezing Temperatures", 
-                "Spirit Box"
-            ]
-        },
-        "Phantom" : {
-            "Description" : "A Phantom is a Ghost that can posses the living, most commonly summoned by a Ouija Board. It also induces fear into those around it.",
-            "Strength" : "Looking at a Phantom will considerably drop your sanity.",
-            "Weaknesses" : "Taking a Photo of the Phantom will make it temporarily disappear.",
-            "Evidence" : [
-                "EMF Level 5", 
-                "Ghost Orb", 
-                "Freezing Temperatures"
-            ]
-        },
-        "Poltergeist" : {
-            "Description" : "One of the most famous Ghosts, a Poltergeist, also known as a noisy ghost can manipulate objects around it to spread fear into it’s victims.",
-            "Strength" : "A Poltergeist can throw huge amounts of objects at once.",
-            "Weaknesses" : "A Poltergeist is almost ineffective in an empty room.",
-            "Evidence" : [
-                "Spirit Box",
-                "Fingerprints",
-                "Ghost Orb"
-            ]
-        },
-        "Banshee" : {
-            "Description" : "A Banshee is a natural hunter and will attack anything. It has been known to stalk it’s prey one at a time until making it’s kill.",
-            "Strength" : "A Banshee will only target one person at a time.",
-            "Weaknesses" : "Banshees fear the Crucifix and will be less aggressive when near one.",
-            "Evidence" : [
-                "EMF Level 5",
-                "Fingerprints",
-                "Freezing Temperatures"
-            ]
-        },
-        "Jinn" : {
-            "Description" : "A Jinn is territorial Ghost that will attack when threatened. It has also been known to be able to travel at significant speed.",
-            "Strength" : "A Jinn will travel at a faster speed if it’s victim is far away.",
-            "Weaknesses" : "Turning off the locations power source will prevent the Jinn from using it’s ability.",
-            "Evidence" : [
-                "Spirit Box",
-                "Ghost Orb",
-                "EMF Level 5"
-            ]
-        },
-        "Mare" : {
-            "Description" : "A Mare is the source of all nightmares, making it most powerful in the dark.",
-            "Strength" : "A Mare will have an increased chance to attack in the dark.",
-            "Weaknesses" : "Turning the lights on around the Mare will lower it’s chance to attack.",
-            "Evidence" : [
-                "Spirit Box",
-                "Ghost Orb",
-                "Freezing temperatures"
-            ]
-        },
-        "Revenant" : {
-            "Description" : "A Revenant is a slow but violent Ghost that will attack indiscriminately. It has been rumoured to travel at a significantly high speed when hunting.",
-            "Strength" : "A Revenant will travel at a significantly faster speed when hunting a victim.",
-            "Weaknesses" : "Hiding from the Revenant will cause it to move very slowly.",
-            "Evidence" : [
-                "EMF Level 5",
-                "Fingerprints",
-                "Ghost Writing"
-            ]
-        },
-        "Shade" : {
-            "Description" : "A Shade is known to be a Shy Ghost. There is evidence that a Shade will stop all paranormal activity if there are multiple people nearby.",
-            "Strength" : "Being shy means the Ghost will be harder to find.",
-            "Weaknesses" : "The Ghost will not enter hunting mode if there is multiple people nearby.",
-            "Evidence" : [
-                "EMF Level 5", 
-                "Ghost Orb", 
-                "Ghost Writing"
-            ]
-        },
-        "Demon" : {
-            "Description" : "A Demon is one of the worst Ghosts you can encounter. It has been known to attack without a reason.",
-            "Strength" : "Demons will attack more often then any other Ghost.",
-            "Weaknesses" : "Asking a Demon successful questions on the Ouija Board won’t lower the users sanity.",
-            "Evidence" : [
-                "Spirit Box",
-                "Ghost Writing",
-                "Freezing Temperatures"
-            ]
-        },
-        "Yurei" : {
-            "Description" : "A Yurei is a Ghost that has returned to the physical world, usually for the purpose of revenge or hatred.",
-            "Strength" : "Yurei’s have been known to have a stronger effect on people’s sanity.",
-            "Weaknesses" : "Smudging the Yurei’s room will cause it to not wander around the location for a long time.",
-            "Evidence" : [
-                "Ghost Orb", 
-                "Ghost Writing", 
-                "Freezing Temperatures"
-            ]
-        },
-        "Oni" : {
-            "Description" : "Oni’s are a cousin to the Demon and possess extreme strength. There have been rumours that they become more active around their prey.",
-            "Strength" : "Oni’s are more active when people are nearby and have been seen moving objects at great speed.",
-            "Weaknesses" : "Being more active will make the Oni easier to find and identify.",
-            "Evidence" : [
-                "EMF Level 5",
-                "Spirit Box",
-                "Ghost Writing"
-            ]
+        "Items" : {
+            "EMF Lesegerät" : {
+                "Description" : "Das Elektromagnetfeld-Lesegerät kann elektromagnetische Schwankungen, welche durch paranormale Aktivitäten produziert werden, festestellen. Bei Aktivität wird es anfangen zu piepen. Steigt die Aktivität, wird das Piepen lauter.",
+                "Price" : 45
+            },
+            "Taschenlampe" : {
+                "Description" : "Die Taschenlampe ist ein grundlegenes Jagdwerkzeug, entwickelt um Ihnen zu helfen, wenn die Lichter ausgehen.",
+                "Price" : 30
+            },
+            "Fotoapperat" : {
+                "Description" : "Der Fotoapperat wurde so modifiziert, dass sie Fotos von paranormalen Aktivitäten aufnehmen kann. Dies wird in Situationen helfen, in denen zusätzliche Beweise benötigt werden.",
+                "Price" : 40
+            },
+            "Feuerzeug" : {
+                "Description" : "Ein einfaches Feuerzeug für das Anzünden von Kerzen und Räucherstäbchen.",
+                "Price" : 10
+            },
+            "Kerze" : {
+                "Description" : "Eine Kerze ist in der Lage im Raum Licht zu schaffen, selbst ohne Stromversorgung.",
+                "Price" : 15
+            },
+            "UV-Licht" : {
+                "Description" : "Das UV-licht kann die subtilsten Abdrücke von Geistern zeigen und ist damit eine der wichtigsten Ausrüstungsgegenstände um sie zu verfolgen.",
+                "Price" : 35
+            },
+            "Kruzifix" : {
+                "Description" : "Ein Kruzifix wird dazu verwendet um die Geister daran zu hindern in ihre physische Form zu wechseln und Sie anzugreifen. Es wird geraten, es in der Nähe des Geistes abzulegen.",
+                "Price" : 30
+            },
+            "Videokamera" : {
+                "Description" : "Die DSLR Kamera wurde modifiziert, damit Sie Videos der paranormalen Aktivitäten machen können. Sie verfügt über einen Live-Feed im LKW.",
+                "Price" : 50
+            },
+            "Geisterbox" : {
+                "Description" : "Dieser elektronische Stimmen-Phänomen-Recorder oder auch Geisterbox genannt, kann paranormale Funkfrequenzen erfassen, die es Ihnen erlaubt mit den Geistern zu kommunizieren.",
+                "Price" : 50
+            },
+            "Salz" : {
+                "Description" : "Salz ist giftig für alle Arten von Geistern und wird ihre Fußspuren unter UV-Licht preisgeben.",
+                "Price" : 15
+            },
+            "Räucherstäbchen" : {
+                "Description" : "Das verbrennen von Räucherstäbchen in der Nähe der Geister wird sie eine gewisse Zeit lang abhalten Sie anzugreifen.",
+                "Price" : 15
+            },
+            "Stativ" : {
+                "Description" : "Mit einem Stativ können Ausrüstungsgegenstände wie Bewegungssensoren oder Videokameras auf erhöhter Position frei im Raum platziert werden.",
+                "Price" : 25
+            },
+            "Starke Taschenlampe" : {
+                "Description" : "Eine verbesserte Version der Taschenlampe, entwickelt um Ihnen in größeren Bereichen zu helfen, wenn die Lichter aus sind.",
+                "Price" : 50
+            },
+            "Bewegungssensor" : {
+                "Description" : "Ein Bewegungssensor kann selbst die feinsten Veränderungen in der Atmosphäre erkennen. Diese Sensoren sind als Echtzeitübertragung mit der Raumübersicht im LKW verbunden.",
+                "Price" : 100
+            },
+            "Audio Sensor" : {
+                "Description" : "Ein Schallsensor der auch die leisesten Töne und Vibrationen hören kann. Diese werden als Diagramm im LKW angezeigt.",
+                "Price" : 80
+            },
+            "Sanity Pillen" : {
+                "Description" : "Sanity-Pillen verbessern Ihre geistige Gesundheit. In größeren Orten sind sie daher von entscheidender Bedeutung, da Sie sich dadurch sicherer in Auftragsgebieten mit großer Fläche und hoher Aufenthaltszeit aufhalten können.",
+                "Price" : 45
+            },
+            "Thermometer" : {
+                "Description" : "Ein Thermometer wird Ihnen helfen die Position eines Geistes schneller zu entdecken. Es misst die Temperatur des Raumes in dem es sich befindet.",
+                "Price" : 30
+            },
+            "Geisterbuch" : {
+                "Description" : "Auch als automatisches Schreiben bekannt. Wenn Sie dieses Buch in der Nähe von einem Geist platzieren, wird es bestimmten Geistern ermöglicht, Ihnen eine Nachricht zu hinterlassen.",
+                "Price" : 40
+            },
+            "Infrarot-Lichtsensor" : {
+                "Description" : "Ein Infrarot-Bewegungssensor, der sowohl menschliche als auch paranormale Bewegungen feststellt. Wenn er ausgelöst wird, dann beleuchtet er die Umgebung mit einem hellen Licht.",
+                "Price" : 65
+            },
+            "Parabolmikrofon" : {
+                "Description" : "Ein Parabolmikrofon kann Schall durch Wände und in großer Entfernung erfassen. Dies ist eine tragbare Version des Schallsensors.",
+                "Price" : 50
+            },
+            "Knicklicht" : {
+                "Description" : "Ein Knicklicht kann dazu verwendet werden, um sich an größeren Orten besser zu Orientieren oder als UV-Flächenlicht verwendet zu werden.",
+                "Price" : 20
+            },
+            "Kopfkamera" : {
+                "Description" : "Eine Kopfkamera kann vom Team zum Tracken genutzt werden und mobilisiert die Suche nach Geisterorbs.",
+                "Price" : 60
+            }
+
         }
     },
-    "Items" : {
-        "EMF Reader" : {
-            "Description" : "The Electro Magnetic Field Reader is a handheld device used to detect fluctuations in electromagnetic fields left behind by paranormal activity. It will beep with increasing volume depending on the amount of activity nearby.",
-            "Price" : 45
+    "en" : {
+        "Ghosts" : {
+            "Spirit" : {
+                "Description" : "A spirit is the most common Ghost you will come across however it is still very powerful and dangerous. They are usually discovered at one of their hunting grounds after an unexplained death.",
+                "Strength" : "Nothing",
+                "Weaknesses" : "Using Smudge Sticks on a Spirit will stop it attacking for a long period of time.",
+                "Evidence" : [
+                    "Spirit Box", 
+                    "Fingerprints", 
+                    "Ghost Writing"
+                ]
+            },
+            "Wraith" : {
+                "Description" : "A Wraith is one of the most dangerous Ghosts you will find. It is also the only known Ghost that has the ability of flight and has sometimes been known to travel through walls.",
+                "Strength" : "Wraiths almost never touch the ground meaning it can’t be tracked by footsteps.",
+                "Weaknesses" : "Wraiths have a toxic reaction to Salt.",
+                "Evidence" : [
+                    "Fingerprints", 
+                    "Freezing Temperatures", 
+                    "Spirit Box"
+                ]
+            },
+            "Phantom" : {
+                "Description" : "A Phantom is a Ghost that can posses the living, most commonly summoned by a Ouija Board. It also induces fear into those around it.",
+                "Strength" : "Looking at a Phantom will considerably drop your sanity.",
+                "Weaknesses" : "Taking a Photo of the Phantom will make it temporarily disappear.",
+                "Evidence" : [
+                    "EMF Level 5", 
+                    "Ghost Orb", 
+                    "Freezing Temperatures"
+                ]
+            },
+            "Poltergeist" : {
+                "Description" : "One of the most famous Ghosts, a Poltergeist, also known as a noisy ghost can manipulate objects around it to spread fear into it’s victims.",
+                "Strength" : "A Poltergeist can throw huge amounts of objects at once.",
+                "Weaknesses" : "A Poltergeist is almost ineffective in an empty room.",
+                "Evidence" : [
+                    "Spirit Box",
+                    "Fingerprints",
+                    "Ghost Orb"
+                ]
+            },
+            "Banshee" : {
+                "Description" : "A Banshee is a natural hunter and will attack anything. It has been known to stalk it’s prey one at a time until making it’s kill.",
+                "Strength" : "A Banshee will only target one person at a time.",
+                "Weaknesses" : "Banshees fear the Crucifix and will be less aggressive when near one.",
+                "Evidence" : [
+                    "EMF Level 5",
+                    "Fingerprints",
+                    "Freezing Temperatures"
+                ]
+            },
+            "Jinn" : {
+                "Description" : "A Jinn is territorial Ghost that will attack when threatened. It has also been known to be able to travel at significant speed.",
+                "Strength" : "A Jinn will travel at a faster speed if it’s victim is far away.",
+                "Weaknesses" : "Turning off the locations power source will prevent the Jinn from using it’s ability.",
+                "Evidence" : [
+                    "Spirit Box",
+                    "Ghost Orb",
+                    "EMF Level 5"
+                ]
+            },
+            "Mare" : {
+                "Description" : "A Mare is the source of all nightmares, making it most powerful in the dark.",
+                "Strength" : "A Mare will have an increased chance to attack in the dark.",
+                "Weaknesses" : "Turning the lights on around the Mare will lower it’s chance to attack.",
+                "Evidence" : [
+                    "Spirit Box",
+                    "Ghost Orb",
+                    "Freezing Temperatures"
+                ]
+            },
+            "Revenant" : {
+                "Description" : "A Revenant is a slow but violent Ghost that will attack indiscriminately. It has been rumoured to travel at a significantly high speed when hunting.",
+                "Strength" : "A Revenant will travel at a significantly faster speed when hunting a victim.",
+                "Weaknesses" : "Hiding from the Revenant will cause it to move very slowly.",
+                "Evidence" : [
+                    "EMF Level 5",
+                    "Fingerprints",
+                    "Ghost Writing"
+                ]
+            },
+            "Shade" : {
+                "Description" : "A Shade is known to be a Shy Ghost. There is evidence that a Shade will stop all paranormal activity if there are multiple people nearby.",
+                "Strength" : "Being shy means the Ghost will be harder to find.",
+                "Weaknesses" : "The Ghost will not enter hunting mode if there is multiple people nearby.",
+                "Evidence" : [
+                    "EMF Level 5", 
+                    "Ghost Orb", 
+                    "Ghost Writing"
+                ]
+            },
+            "Demon" : {
+                "Description" : "A Demon is one of the worst Ghosts you can encounter. It has been known to attack without a reason.",
+                "Strength" : "Demons will attack more often then any other Ghost.",
+                "Weaknesses" : "Asking a Demon successful questions on the Ouija Board won’t lower the users sanity.",
+                "Evidence" : [
+                    "Spirit Box",
+                    "Ghost Writing",
+                    "Freezing Temperatures"
+                ]
+            },
+            "Yurei" : {
+                "Description" : "A Yurei is a Ghost that has returned to the physical world, usually for the purpose of revenge or hatred.",
+                "Strength" : "Yurei’s have been known to have a stronger effect on people’s sanity.",
+                "Weaknesses" : "Smudging the Yurei’s room will cause it to not wander around the location for a long time.",
+                "Evidence" : [
+                    "Ghost Orb", 
+                    "Ghost Writing", 
+                    "Freezing Temperatures"
+                ]
+            },
+            "Oni" : {
+                "Description" : "Oni’s are a cousin to the Demon and possess extreme strength. There have been rumours that they become more active around their prey.",
+                "Strength" : "Oni’s are more active when people are nearby and have been seen moving objects at great speed.",
+                "Weaknesses" : "Being more active will make the Oni easier to find and identify.",
+                "Evidence" : [
+                    "EMF Level 5",
+                    "Spirit Box",
+                    "Ghost Writing"
+                ]
+            }
         },
-        "Flashlight" : {
-            "Description" : "The Flashlight is a basic hunting tool designed to help you when the lights go out.",
-            "Price" : 30
-        },
-        "Photo Camera" : {
-            "Description" : "This camera has been fine tuned to take photos of the paranormal. This will help you in situations where more evidence is needed.",
-            "Price" : 40
-        },
-        "Lighter" : {
-            "Description" : "A simple Lighter used for lighting candles and Smudge Sticks",
-            "Price" : 10
-        },
-        "Candle" : {
-            "Description" : "A Candle is a great way of keeping a room lit when the lights go out as it isn't dependent on electricity.",
-            "Price" : 15
-        },
-        "UV Light" : {
-            "Description" : "This UV light can spot even the most subtile paranormal prints and is one of the most vital pieces of equipment for tracking Ghosts.",
-            "Price" : 35
-        },
-        "Crucifix" : {
-            "Description" : "A Crucifix is used to stop Ghosts from entering their physical form to attack you. It's advised to place them near the Ghost.",
-            "Price" : 30
-        },
-        "Video Camera" : {
-            "Description" : "This DSLR Camera has been fine tuned to take videos of the paranormal. The camera has a live feed to your base of operations.",
-            "Price" : 50
-        },
-        "Spirit Box" : {
-            "Description" : "This electronic voice phenomenon recorder or Spirit Box can capture paranormal radio frequencies that can allow communication with spirits.",
-            "Price" : 50
-        },
-        "Salt" : {
-            "Description" : "Salt is toxic to most kinds of Ghosts and will reveal their footsteps under a UV light.",
-            "Price" : 15
-        },
-        "Smudge Sticks" : {
-            "Description" : "Burning Smudge Sticks near a Ghost will prevent it from attacking for a period of time.",
-            "Price" : 15
-        },
-        "Tripod" : {
-            "Description" : "A Tripod can be used to mount Video Cameras on.",
-            "Price" : 25
-        },
-        "Strong Flashlight" : {
-            "Description" : "An upgraded version of the flashlight. Designed to help you in large areas when the lights go out.",
-            "Price" : 50
-        },
-        "Motion Sensor" : {
-            "Description" : "A motion sensor is a sensor that can detect the most subtle changes in the atmosphere around it. This is linked live to the map in your Truck.",
-            "Price" : 100
-        },
-        "Sound Sensor" : {
-            "Description" : "A sound sensor is a sensor that can listen to the most quiet sounds and vibrations in the air. This gets displayed as data at your base of operations.",
-            "Price" : 80
-        },
-        "Sanity Pills" : {
-            "Description" : "Sanity Pills will increase your Sanity level therefore they are vital for larger locations as these will allow you to be safer on a contract for longer periods.",
-            "Price" : 45
-        },
-        "Thermometer" : {
-            "Description" : "A Thermometer will help you discover the location of a Ghost quicker by getting the temperature of the room.",
-            "Price" : 30
-        },
-        "Ghost Writing Book" : {
-            "Description" : "Also known as automatic writing, if you place this book near a Ghost it will allow certain Ghosts to write on it.",
-            "Price" : 40
-        },
-        "Infrared Light Sensor" : {
-            "Description" : "An infrared motion sensor that detects both human and paranormal movement, when set off it will illuminate the surrounding area with a bright light.",
-            "Price" : 65
-        },
-        "Parabolic Microphone" : {
-            "Description" : "A Parabolic Microphone can detect sound through walls and at great distance. This is a portable version of the sound sensor",
-            "Price" : 50
-        },
-        "Glowstick" : {
-            "Description" : "A Glowstick can be used to help navigate in larger locations or used as an area UV Light.",
-            "Price" : 20
-        },
-        "Head Mounted Camera" : {
-            "Description" : "A Head Mounted Camera can be used to help teams track each other and to see Ghost Orbs.",
-            "Price" : 60
-        }
+        "Items" : {
+            "EMF Reader" : {
+                "Description" : "The Electro Magnetic Field Reader is a handheld device used to detect fluctuations in electromagnetic fields left behind by paranormal activity. It will beep with increasing volume depending on the amount of activity nearby.",
+                "Price" : 45
+            },
+            "Flashlight" : {
+                "Description" : "The Flashlight is a basic hunting tool designed to help you when the lights go out.",
+                "Price" : 30
+            },
+            "Photo Camera" : {
+                "Description" : "This camera has been fine tuned to take photos of the paranormal. This will help you in situations where more evidence is needed.",
+                "Price" : 40
+            },
+            "Lighter" : {
+                "Description" : "A simple Lighter used for lighting candles and Smudge Sticks",
+                "Price" : 10
+            },
+            "Candle" : {
+                "Description" : "A Candle is a great way of keeping a room lit when the lights go out as it isn't dependent on electricity.",
+                "Price" : 15
+            },
+            "UV Light" : {
+                "Description" : "This UV light can spot even the most subtile paranormal prints and is one of the most vital pieces of equipment for tracking Ghosts.",
+                "Price" : 35
+            },
+            "Crucifix" : {
+                "Description" : "A Crucifix is used to stop Ghosts from entering their physical form to attack you. It's advised to place them near the Ghost.",
+                "Price" : 30
+            },
+            "Video Camera" : {
+                "Description" : "This DSLR Camera has been fine tuned to take videos of the paranormal. The camera has a live feed to your base of operations.",
+                "Price" : 50
+            },
+            "Spirit Box" : {
+                "Description" : "This electronic voice phenomenon recorder or Spirit Box can capture paranormal radio frequencies that can allow communication with spirits.",
+                "Price" : 50
+            },
+            "Salt" : {
+                "Description" : "Salt is toxic to most kinds of Ghosts and will reveal their footsteps under a UV light.",
+                "Price" : 15
+            },
+            "Smudge Sticks" : {
+                "Description" : "Burning Smudge Sticks near a Ghost will prevent it from attacking for a period of time.",
+                "Price" : 15
+            },
+            "Tripod" : {
+                "Description" : "A Tripod can be used to mount Video Cameras on.",
+                "Price" : 25
+            },
+            "Strong Flashlight" : {
+                "Description" : "An upgraded version of the flashlight. Designed to help you in large areas when the lights go out.",
+                "Price" : 50
+            },
+            "Motion Sensor" : {
+                "Description" : "A motion sensor is a sensor that can detect the most subtle changes in the atmosphere around it. This is linked live to the map in your Truck.",
+                "Price" : 100
+            },
+            "Sound Sensor" : {
+                "Description" : "A sound sensor is a sensor that can listen to the most quiet sounds and vibrations in the air. This gets displayed as data at your base of operations.",
+                "Price" : 80
+            },
+            "Sanity Pills" : {
+                "Description" : "Sanity Pills will increase your Sanity level therefore they are vital for larger locations as these will allow you to be safer on a contract for longer periods.",
+                "Price" : 45
+            },
+            "Thermometer" : {
+                "Description" : "A Thermometer will help you discover the location of a Ghost quicker by getting the temperature of the room.",
+                "Price" : 30
+            },
+            "Ghost Writing Book" : {
+                "Description" : "Also known as automatic writing, if you place this book near a Ghost it will allow certain Ghosts to write on it.",
+                "Price" : 40
+            },
+            "Infrared Light Sensor" : {
+                "Description" : "An infrared motion sensor that detects both human and paranormal movement, when set off it will illuminate the surrounding area with a bright light.",
+                "Price" : 65
+            },
+            "Parabolic Microphone" : {
+                "Description" : "A Parabolic Microphone can detect sound through walls and at great distance. This is a portable version of the sound sensor",
+                "Price" : 50
+            },
+            "Glowstick" : {
+                "Description" : "A Glowstick can be used to help navigate in larger locations or used as an area UV Light.",
+                "Price" : 20
+            },
+            "Head Mounted Camera" : {
+                "Description" : "A Head Mounted Camera can be used to help teams track each other and to see Ghost Orbs.",
+                "Price" : 60
+            }
 
+        }
     }
 }
