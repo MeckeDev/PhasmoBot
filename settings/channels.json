@@ -1,0 +1,14 @@
+{
+        "mecke_dev": {
+                "language": "de",
+                "evidence": [],
+                "ghost_name": "",
+                "responds": "",
+                "whitelist": false,
+                "allowed": [],
+                "ignore": [],
+                "death_message": "COUNT",
+                "death_count": 0,
+                "used": 0
+        }
+}
